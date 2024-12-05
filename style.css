@@ -1,6 +1,21 @@
-.body {
+.bodybox {
+    display: flex;
+    justify-content: center;
+  
 background-color: aquamarine;
 width: 400px;
 height: 700px;  
-border-radius : 40px;
+border-radius: 40px;
 }
+
+.headerbox {
+background-color:rgb(75, 161, 133);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    margin-top: 8%;
+
+}
+
+
+
