@@ -1,6 +1,7 @@
 .bodybox {
     display: flex;
     justify-content: center;
+    align-content: space-evenly;
   
 background-color: aquamarine;
 width: 400px;
@@ -9,13 +10,25 @@ border-radius: 40px;
 }
 
 .headerbox {
+    order: 2;
 background-color:rgb(75, 161, 133);
     width: 400px;
     height: 100px;
     display: flex;
     margin-top: 8%;
 
+
 }
 
+.header {
+ 
+}
 
+.displayer {
+    order: 3;
+  
+background-color: rgb(0, 0, 0);
 
+width: 50px;
+height:150px;
+}
